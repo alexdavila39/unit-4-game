@@ -1,3 +1,11 @@
+body{
+    text-align: center;
+    color : whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 .crystals{
     display : flex;
     justify-content: space-around;
@@ -8,4 +16,27 @@
     border : 1px solid green;
     height: 200px;
     width: 200px;
+}
+
+#win{
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+
+
+}
+
+#losses{ 
+    border-style: solid;
+    width: 100px;
+    height: 30px;
+
+}
+
+#container{
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+
+
 }

@@ -8,7 +8,7 @@ var resetGame = function () {
 
     randomScore = Math.floor(Math.random() * 101) + 19;
 
-    $("#result").html("random score : " + randomScore);
+    $("#result").html("Amount Needed : " + randomScore);
 
     for (var i = 0; i < 4; i++) {
         var random = Math.floor(Math.random() * 12) + 1;
@@ -46,7 +46,7 @@ $(document).on("click", ".crystal", function () {
         previousNum = 0;
         resetGame();
     }
-
+   
 
 
 
