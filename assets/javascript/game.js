@@ -2,6 +2,7 @@ var randomScore;
 var win = 0;
 var losses = 0;
 var previousNum = 0;
+var images = ["assets/images/power-stone.jpg","assets/images/mind-stone.jpg","assets/images/space-stone.jpg","assets/images/time-stone.jpg"];
 
 var resetGame = function () {
     $(".crystals").empty();
@@ -13,10 +14,11 @@ var resetGame = function () {
     for (var i = 0; i < 4; i++) {
         var random = Math.floor(Math.random() * 12) + 1;
 
-        var crystal = $("<div>");
+        var crystal = $("<img>");
         crystal.attr({
             "class": "crystal",
-            "boxes": random
+            "boxes": random,
+            "src": images[i]
         });
         $(".crystals").append(crystal);
     }

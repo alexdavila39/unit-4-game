@@ -5,7 +5,20 @@ body{
     font-weight: bold;
 }
 
+#instructions{
+    
+    margin-top: 5%;
+    border-style: double;
 
+}
+
+#result{
+    background-color: black;
+    border-style: solid;
+    margin-left: 43%;
+    width: 200px;
+    height: 35px;
+}
 .crystals{
     display : flex;
     justify-content: space-around;
@@ -19,24 +32,34 @@ body{
 }
 
 #win{
+    background-color: black;
     border-style: solid;
-    width: 100px;
+    margin-left: 46%;
+     width: 100px;
     height: 30px;
 
 
 }
 
 #losses{ 
+    background-color: black;
     border-style: solid;
+    margin-left: 46%;
     width: 100px;
     height: 30px;
 
 }
 
 #container{
+    font-size: 20px;
+    background-color: black;
     border-style: solid;
+    margin-left: 43%;
     width: 200px;
     height: 200px;
 
 
+}
+#currentCount{
+    font-size: 40px;
 }
