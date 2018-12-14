@@ -12,7 +12,7 @@ var resetGame = function () {
     $("#result").html("Amount Needed : " + randomScore);
 
     for (var i = 0; i < 4; i++) {
-        var random = Math.floor(Math.random() * 12) + 1;
+        var random = Math.floor(Math.random() * 12) + 2;
 
         var crystal = $("<img>");
         crystal.attr({
